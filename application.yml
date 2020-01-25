@@ -6,14 +6,16 @@ spring:
 ---
 
 spring:
-  profiles: dev   #开发环境
-    active:
+   profiles: dev   #开发环境
+     active:
        name: microservicecloud-config-dev
       
 ---
-spring:
-  profiles: test   # 测试环境
-  application:
+spring: 
+   profiles:  test   # 测试环境
+   application: 
     name: microservicecloud-config-test
+
+
 
 #请保存为UTF-8格式  
