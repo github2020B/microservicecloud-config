@@ -6,9 +6,9 @@ spring:
 ---
 
 spring:
-  profiles:
+  profiles: dev   #开发环境
     active:
-      - dev
+       name: microservicecloud-config-dev
       
 ---
 spring:
